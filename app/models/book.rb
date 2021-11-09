@@ -12,5 +12,4 @@ class Book < ApplicationRecord
 	end
 	
 	validates :rate, numericality: { in:1..5 }
-
 end
