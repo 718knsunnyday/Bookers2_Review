@@ -23,6 +23,7 @@
         <td>
           <div id="book-review_<%= book.id %>"></div>
             <script>
+            $('#book-review_<%= book.id %>').empty()
               $('#book-review_<%= book.id %>').raty({
                 size: 20,
                 starOff:  '<%= asset_path('star-off.png') %>',
